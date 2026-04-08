@@ -12,6 +12,7 @@
         <style>
             :root {
                 font-family: monospace;
+                color-scheme: light dark;
             }
             h1 {
                 display: flex;
@@ -122,6 +123,21 @@
                 align-items: center;
                 gap: 1ex;
             }
+            @media (prefers-color-scheme: dark) {
+              article {
+                color: white;
+                background-color: #101010;
+              }
+              a:link, a:visited  {
+                  color: #ff87a7
+              }
+              .media-icon {
+                  color: #fff;
+              }
+              main > footer {
+                border-top: 2px solid #333;
+            }
+            }
         </style>
     </head>
     <body>
@@ -200,7 +216,7 @@
                     href="https://livebook.dev/run?url=<?php echo urlencode($livebook->url); ?>"
                 >
                     <img
-                        src="https://livebook.dev/badge/v1/blue.svg"
+                        src="blue.svg"
                         alt="Run in Livebook"
                     />
                 </a>

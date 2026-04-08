@@ -10,7 +10,7 @@
     "title": "Handwritten Digit Recognition",
     "description": "Introduction to convolutional neural networks via Elixir ",
     "hero": "images/handwritten.png",
-    "url": "https://github.com/laszlokorte/elixir-nx-mnist-livebook",
+    "url": "https://github.com/laszlokorte/elixir-nx-mnist-livebook/handwriting.livemd",
     "github": "laszlokorte/elixir-nx-mnist-livebook"
   },
   {
@@ -19,6 +19,13 @@
     "url": "https://github.com/laszlokorte/bluenoise-elixir/blob/main/elixir_bluenoise.livemd",
     "github": "laszlokorte/bluenoise-elixir",
     "hero": "images/bluenoise.png"
+  },
+  {
+    "title": "M.C. Escher spiral",
+    "description": "The Escher Print Gallery Spiral transform via Nx",
+    "url": "https://github.com/laszlokorte/nx-escher-livebook/blob/main/nxescher.livemd",
+    "github": "laszlokorte/nx-escher-livebook",
+    "hero": "images/escher.png"
   },
   {
     "title": "Recursion Schemes",
@@ -33,6 +40,13 @@
     "hero": "images/aoc2025-4.png",
     "url": "https://github.com/laszlokorte/aoc2025-livebook/blob/main/aoc.livemd",
     "github": "laszlokorte/aoc2025-livebook"
+  },
+  {
+    "title": "Einsum Notation",
+    "description": "Experimental implementation of Einsum notation for Nx",
+    "hero": "images/einsum.png",
+    "url": "https://github.com/laszlokorte/elixir-nx-einsum/blob/main/einsum.livemd",
+    "github": "laszlokorte/elixir-nx-einsum"
   },
   {
     "title": "Plotting images in Livebook via kino_zoetrope",
