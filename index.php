@@ -7,6 +7,8 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
         />
+
+        <meta name="mobile-web-app-capable" content="yes" />
         <title>Educational Elixir Livebboks</title>
         <?php $urls = json_decode(file_get_contents('livebooks.json')); ?>
         <style>
