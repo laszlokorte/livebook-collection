@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Nx Image processing",
+    "hero": "images/image-proc.png",
+    "description": "Introduction to image processing via Elixir Nx",
+    "url": "https://github.com/laszlokorte/elixir-nx-livebook/blob/main/hello.livemd",
+    "github": "laszlokorte/elixir-nx-livebook"
+  },
+  {
+    "title": "Handwritten Digit Recognition",
+    "description": "Introduction to convolutional neural networks via Elixir ",
+    "hero": "images/handwritten.png",
+    "url": "https://github.com/laszlokorte/elixir-nx-mnist-livebook",
+    "github": "laszlokorte/elixir-nx-mnist-livebook"
+  },
+  {
+    "title": "Generating Blue Noise in Elixir with Nx",
+    "description": "Generating blue noise via Elixir and Nx",
+    "url": "https://github.com/laszlokorte/bluenoise-elixir/blob/main/elixir_bluenoise.livemd",
+    "github": "laszlokorte/bluenoise-elixir",
+    "hero": "images/bluenoise.png"
+  },
+  {
+    "title": "Recursion Schemes",
+    "description": "Introduction to recursion schemes via Elixir ",
+    "url": "https://github.com/laszlokorte/elixir-recursion-livebook/blob/main/intro.livemd",
+    "github": "laszlokorte/elixir-recursion-livebook",
+    "hero": "images/recscheme.png"
+  },
+  {
+    "title": "Advent of Code 2025 Day 4 via Elixir",
+    "description": "Solution for Advent of Code 2025 Day 4 via Elixir Nx ",
+    "hero": "images/aoc2025-4.png",
+    "url": "https://github.com/laszlokorte/aoc2025-livebook/blob/main/aoc.livemd",
+    "github": "laszlokorte/aoc2025-livebook"
+  },
+  {
+    "title": "Plotting images in Livebook via kino_zoetrope",
+    "description": "Helper for rendering 3D and 4D Nx.Tensor as image sequences in livebook. ",
+    "hero": "images/zoetrope.png",
+    "url": "https://github.com/laszlokorte/kino_zoetrope/blob/main/guides/example.livemd",
+    "github": "laszlokorte/kino_zoetrope"
+  },
+  {
+    "title": "Plotting images in Livebook via kino_rewind",
+    "description": "KinoRewind is a helper module for rendering 3D and 4D Nx.Tensor as sequence of images or single image in Livebook via VegaLite ",
+    "url": "https://github.com/laszlokorte/kino_rewind/blob/main/guides/example.livemd",
+    "github": "laszlokorte/kino_rewind",
+    "hero": "images/plot.png"
+  }
+]
