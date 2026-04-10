@@ -28,6 +28,14 @@
     "hero": "images/escher.png"
   },
   {
+    "title": "Audio Speech Processing",
+    "description": "Processing audio signals via Elxir Nx",
+    "wip": true,
+    "url": "https://github.com/laszlokorte/elixir-speech-processing-livebook/blob/main/speech.livemd",
+    "github": "laszlokorte/elixir-speech-processing-livebook",
+    "hero": "images/audio.png"
+  },
+  {
     "title": "Recursion Schemes",
     "description": "Introduction to recursion schemes via Elixir ",
     "url": "https://github.com/laszlokorte/elixir-recursion-livebook/blob/main/intro.livemd",

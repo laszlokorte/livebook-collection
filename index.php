@@ -140,6 +140,17 @@
                 border-top: 2px solid #333;
             }
             }
+
+            .wip {
+                align-self: center;
+                justify-self: center;
+                z-index: 100;
+                color: #a00;
+                stroke: #fff;
+                width: 100%;
+                height: 100%;
+                font-size: 2em;
+            }
         </style>
     </head>
     <body>
@@ -189,15 +200,18 @@
                 <header>
                     <div class="headline">
                         <h2><?php echo $livebook->title ?></h2>
+
+                        <?php if(isset($livebook->github)): ?>
                         <a
                             target="_blank"
-                            href="<?php echo $livebook->url ?>"
+                            href="https://github.com/<?php echo $livebook->github ?>"
                             title="Source Code on Github"
                         >
                             <svg viewBox="-3 -3 38 38" class="media-icon">
                                 <use href="#github-icon"></use>
                             </svg>
                         </a>
+                        <?php endif; ?>
                     </div>
                     <?php if(!empty($livebook->hero)): ?>
                     <div class="hero-box">
@@ -208,6 +222,16 @@
                             class="star"
                             src="stars.php?repo=<?php echo $livebook->github; ?>"
                         />
+                        <?php endif; ?>
+                        <?php if($livebook->wip ?? false): ?>
+                        <svg class="wip" viewBox="-250 -250 500 500">
+                                <text fill-rule="nonzero" font-size="100" font-weight="bold"transform="rotate(-10)" fill="#fff" stroke-linejoin="round" font-family="monospace" stroke-width="32" stroke="currentColor" x="0" y="0" text-anchor="middle">
+                                Work in progress
+                            </text>
+                            <text font-size="100" font-weight="bold" transform="rotate(-10)" fill="#fff" stroke-width="0" stroke="none" x="0" y="0" text-anchor="middle">
+                                                            Work in progress
+                                                        </text>
+                        </svg>
                         <?php endif; ?>
                     </div>
                     <?php endif; ?>

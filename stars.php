@@ -50,7 +50,7 @@ function getStars($owner, $repo, $ttl = 300) {
 
     file_put_contents($cacheFile, $body);
 
-    return json_decode($body, true)["stargazers_count"];
+    return json_decode($body, true)["stargazers_count"] ?? "?";
 }
 
 if(isset($_GET['force'])) {
@@ -75,7 +75,6 @@ $width = strlen($stars) * 6 + 28;
 <svg xmlns="http://www.w3.org/2000/svg" width="<?php echo $width ?>" height="20">
 <g fill="#fff" font-family="monospace" text-rendering="geometricPrecision" font-size="110">
             <rect width="<?php echo $width ?>" x="0" height="20" fill="rgba(0,0,0,1)"/>
-            <text aria-hidden="true" x="115" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="110">🌟</text>
             <text x="5" y="13" fill="#fff" font-size="10">🌟</text>
             <rect width="17" x="21" height="20" fill="rgba(0,0,0,0)"/>
             <text x="21" y="13.5"  fill="#fff" font-size="10"><?php echo $stars; ?></text>
