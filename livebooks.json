@@ -21,6 +21,13 @@
     "hero": "images/bluenoise.png"
   },
   {
+    "title": "Basic Process Example",
+    "hero": "images/processes.png",
+    "description": "A few examples demonstrating the power Erlangs and Elixirs process model.",
+    "url": "https://github.com/laszlokorte/elixir_simple_server/blob/main/server.livemd",
+    "github": "laszlokorte/elixir_simple_server"
+  },
+  {
     "title": "M.C. Escher spiral",
     "description": "The Escher Print Gallery Spiral transform via Nx",
     "url": "https://github.com/laszlokorte/nx-escher-livebook/blob/main/nxescher.livemd",
