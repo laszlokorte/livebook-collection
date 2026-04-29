@@ -68,13 +68,15 @@
     "description": "Helper for rendering 3D and 4D Nx.Tensor as image sequences in livebook. ",
     "hero": "images/zoetrope.png",
     "url": "https://github.com/laszlokorte/kino_zoetrope/blob/main/guides/example.livemd",
-    "github": "laszlokorte/kino_zoetrope"
+    "github": "laszlokorte/kino_zoetrope",
+    "hex": "kino_zoetrope"
   },
   {
     "title": "Plotting images in Livebook via kino_rewind",
     "description": "KinoRewind is a helper module for rendering 3D and 4D Nx.Tensor as sequence of images or single image in Livebook via VegaLite ",
     "url": "https://github.com/laszlokorte/kino_rewind/blob/main/guides/example.livemd",
     "github": "laszlokorte/kino_rewind",
-    "hero": "images/plot.png"
+    "hero": "images/plot.png",
+    "hex": "kino_rewind"
   }
 ]
